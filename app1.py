@@ -404,8 +404,10 @@ st.markdown("""
 
 # Header with logo space
 st.markdown('''
-<div class="main-header">
-    <div class="logo-space">📊</div>
+<div class="main-header" style="display: flex; align-items: center; justify-content: space-between;">
+    <div class="logo-space">
+        <img src="https://raw.githubusercontent.com/AyushiR0y/acturialapp/b441a13bec87acbf09781c05ca84a6c0c70b53c7/logo.png" alt="Logo" style="height: 50px;">
+    </div>
     <div class="header-content">
         <h1>Insurance Policy Analytics</h1>
         <p>Advanced Actuarial Analysis & Risk Management</p>
@@ -413,6 +415,7 @@ st.markdown('''
     <div style="width: 80px;"></div>
 </div>
 ''', unsafe_allow_html=True)
+
 
 # Welcome section (no box)
 st.markdown('''
