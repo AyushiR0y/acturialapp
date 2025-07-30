@@ -111,7 +111,7 @@ st.markdown("""
     text-align: center;
     box-shadow: 0 2px 8px rgba(0,0,0,0.1);
     transition: all 0.2s ease;
-    color: white; /* Dark text for light backgrounds */
+    color: #454544; /* Dark text for light backgrounds */
     height: 140px;
     display: flex;
     flex-direction: column;
@@ -508,7 +508,7 @@ col1, col2, col3 = st.columns(3)
 
 with col1:
     st.markdown('''
-    <div class="feature-card" style="background: linear-gradient(135deg, #6366f1 0%, #4f46e5 100%);">
+    <div class="feature-card" style="background: linear-gradient(135deg, #def2fc, #fce1de);">
         <h3>Risk Analytics</h3>
         <p>Automated risk scoring, anomaly detection, and predictive risk modeling</p>
     </div>
@@ -516,7 +516,7 @@ with col1:
 
 with col2:
     st.markdown('''
-    <div class="feature-card" style="background: linear-gradient(135deg, #0ea5e9 0%, #0284c7 100%);">
+    <div class="feature-card" style="background: linear-gradient(135deg, #fcf8de, #ffe8c4);">
         <h3>Premium Intelligence</h3>
         <p>Loss ratio analysis, premium adequacy assessment, and profitability insights</p>
     </div>
@@ -524,7 +524,7 @@ with col2:
 
 with col3:
     st.markdown('''
-    <div class="feature-card" style="background: linear-gradient(135deg, #8b5cf6 0%, #7c3aed 100%);">
+    <div class="feature-card" style="background: linear-gradient(135deg, #defce4, #dcd0ff);">
         <h3>Advanced Analytics</h3>
         <p>Machine learning clustering, temporal patterns, and statistical analysis</p>
     </div>
